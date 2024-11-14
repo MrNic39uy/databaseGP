@@ -30,27 +30,6 @@ CREATE TABLE Product (
     stock_amount INT
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-CREATE TABLE Buy_Product (
-    buy_id INT,
-    product_id INT,
-    quantity INT,
-    FOREIGN KEY (buy_id) REFERENCES Buy(buy_id),
-    FOREIGN KEY (product_id) REFERENCES Product(product_id),
-    PRIMARY KEY (buy_id, product_id)
-);
-
 -- RAM table
 CREATE TABLE RAM (
    Ram_id INT PRIMARY KEY,
@@ -71,9 +50,9 @@ CREATE TABLE CPU (
 -- GPU table
 CREATE TABLE GPU (
     GPU_id INT PRIMARY KEY,
-    clock_speed DECIMAL(5, 2),
+    clock_speed INT,
     vram_size INT,
-    gddr_type VARCHAR(10),
+    chipset VARCHAR(20),
     FOREIGN KEY (GPU_id) REFERENCES Product(product_id)
 );
 
@@ -89,16 +68,14 @@ CREATE TABLE Motherboard (
 -- COOLER table
 CREATE TABLE Cooler (
     Cooler_id INT PRIMARY KEY,
-    socket_type VARCHAR(50),
+    cooler_size INT,
     FOREIGN KEY (Cooler_id) REFERENCES Product(product_id)
 );
 
 -- CASE table
 CREATE TABLE PC_Case (
     Case_id INT PRIMARY KEY,
-    height DECIMAL(5, 2),
-    width DECIMAL(5, 2),
-    motherboard_size VARCHAR(50),
+    type varchar(50),
     FOREIGN KEY (Case_id) REFERENCES Product(product_id)
 );
 
