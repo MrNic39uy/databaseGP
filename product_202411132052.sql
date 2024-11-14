@@ -1,0 +1,88 @@
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Kraken Elite 360 RGB','NZXT',273.99,5),
+	 ('GAMMAXX AG400 ARGB','Deepcool',29.99,5),
+	 ('NH-D15 Chromax','Noctua',119.95,5),
+	 ('Liquid Freezer III','ARCTIC',116.99,5),
+	 ('Hyper 212 Black Edition','Cooler Master',29.99,5),
+	 ('MASTERLIQUID ML240L RGB V2','Cooler Master',99.99,5),
+	 ('LS720 SE WH','Deepcool',97.99,5),
+	 ('Phantom Spirit 120 SE ARGB','Thermalright',36.99,5),
+	 ('AK400','Deepcool',33.49,5),
+	 ('LT720','Deepcool',89.95,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Corsair Vengeance LPX','Corsair ',38.99,5),
+	 ('Corsair Vengeance','Corsair ',113.99,5),
+	 ('G.Skill Trident','Trident',117.99,5),
+	 ('Corsair Vengeance RGB Pro','Corsair',94.99,5),
+	 ('Corsair Vengeance','Corsair',159.99,5),
+	 ('G.Skill Ripjaws V','Ripjaws',49.99,NULL),
+	 ('G.Skill Trident Z5 RGB','Trident',299.99,5),
+	 ('Corsair Dominator Titanium','Corsair',309.99,5),
+	 ('G.Skill Ripjaws S5','Ripjaws',109.99,5),
+	 ('TEAMGROUP T-Force Vulcan Z','Vulcan',60.99,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('MSI GeForce RTX 3060 Ventus 2X 12G','MSI',288.99,5),
+	 ('Gigabyte WINDFORCE OC','Gigabyte',581.99,5),
+	 ('Asus ROG STRIX GAMING OC','Asus',1979.99,5),
+	 ('Gigabyte WINDFORCE OC','Gigabyte',799.99,5),
+	 ('Asus DUAL OC','Asus',309.99,5),
+	 ('Gigabyte GAMING OC','Gigabyte',499.00,5),
+	 ('Gigabyte WINDFORCE OC','Gigabyte WINDFORCE OC',599.99,5),
+	 ('ASRock Challenger D','Asus',219.99,5),
+	 ('PNY VCNRTX6000ADA-PB','PNY',9999.00,5),
+	 ('XFX Speedster SWFT 309','XFX',299.99,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Ryzen 5 7600','AMD',185.00,5),
+	 ('Core i9-14900k','Intel',544.99,5),
+	 ('Core i7-14700k','Intel',399.99,5),
+	 ('Core i5-12400f','Intel',128.00,5),
+	 ('Core i7-12700k','Intel',248.00,5),
+	 ('Ryzen 7 7800X3D','AMD',339.99,5),
+	 ('Ryzen 7 5800X','AMD',202.00,5),
+	 ('Ryzen 9 7950X3D','AMD',564.00,5),
+	 ('Core i7-12700kf','Intel',223.95,5),
+	 ('Core i3-12100f','Intel',94.98,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Pro Z790-A Max Wifi','MSI',239.99,5),
+	 ('B760 Gaming Plus Wifi','MSI',159.99,5),
+	 ('Asus PRIME B550M-A WIFI II','Asus',104.99,5),
+	 ('Pro Z790-P Wifi','MSI',199.99,5),
+	 ('ASRock B550M Pro4','ASRock',99.99,5),
+	 ('A520I AC','Gigabyte',109.99,5),
+	 ('B450M Pro-VDH Max','MSI',74.99,5),
+	 ('TUF Gaming B550-Plus Wifi II','Asus',134.00,5),
+	 ('B650M D3HP','Gigabyte',119.99,5),
+	 ('Pro Z690-A Wifi','MSI',149.99,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Microsoft Windows 11 Home (64-bit)','Microsoft ',109.99,5),
+	 ('Microsoft Windows 11 Pro (64-bit)','Microsoft ',159.99,5),
+	 ('Microsoft Windows 10 Home (64-bit)','Microsoft ',100.00,5),
+	 ('Microsoft Windows 10 Pro (64-bit)','Microsoft ',106.99,5),
+	 ('Microsoft Windows 11 Home (64-bit)','Microsoft ',94.99,5),
+	 ('Microsoft Windows 11 Pro (64-bit)','Microsoft ',75.99,5),
+	 ('Microsoft Windows 11 Pro (64-bit)','Microsoft ',139.99,5),
+	 ('Microsoft Windows 10 Pro (32/64-bit)','Microsoft ',249.99,5),
+	 ('Microsoft Windows 10 Home (64-bit)','Microsoft ',99.99,5),
+	 ('Microsoft Windows 10 Pro (32/64-bit)','Microsoft ',199.99,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('4000D Airflow','Corsair',104.99,5),
+	 ('H5 Flow','NZXT',94.99,5),
+	 ('H9 Flow','NZXT',159.99,5),
+	 ('AIR 903 Max','Montech',75.00,5),
+	 ('X3 Mesh','Montech',64.98,5),
+	 ('O11 Vision','Lian Li',138.94,5),
+	 ('North','Fractal Design',139.99,5),
+	 ('H6 Flow','NZXT',101.29,5),
+	 ('CC560 V2','Deepcool',59.99,5),
+	 ('H7 Flow','NZXT',129.99,5);
+INSERT INTO pixel.product (name,brand,price,stock_amount) VALUES
+	 ('Corsair RM750e (2023)','Corsair',99.99,5),
+	 ('Corsair RM850e (2023)','Corsair',119.99,5),
+	 ('Corsair RM1000e (2023)','Corsair',159.99,5),
+	 ('Corsair RM650 (2023)','Corsair',89.99,5),
+	 ('MSI MAG A650BN','MSI',59.99,5),
+	 ('MSI MAG A850GL PCIE5','MSI',89.99,5),
+	 ('Corsair CX650M (2021)','Corsair',79.99,5),
+	 ('MSI MAG A550BN','MSI',49.99,5),
+	 ('Corsair SF750','Corsair',184.99,5),
+	 ('Corsair RM850','Corsair',124.99,5);
